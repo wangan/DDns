@@ -95,6 +95,12 @@
   <ItemGroup>
     <Folder Include="Functions\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DDns.Comm\DDns.Comm.csproj">
+      <Project>{c62c7d9c-3ad3-4606-961a-1d92573aee02}</Project>
+      <Name>DDns.Comm</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
